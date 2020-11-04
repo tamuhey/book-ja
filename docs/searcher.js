@@ -446,6 +446,7 @@ window.search = window.search || {};
             }
             return words.join(" ")
         } else {
+            // TODO: impl tokenizer except for V8
             return text;
         }
     }

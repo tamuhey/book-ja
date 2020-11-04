@@ -2,7 +2,7 @@ import { search as tinysearch, default as init } from "/book-ja/tinysearch_engin
 window.tinysearch = tinysearch;
 
 async function run() {
-    await init('/book-ja/tinysearch_engine_bg.wasm');
+    await init('/tinysearch_engine_bg.wasm');
 }
 
 run();
